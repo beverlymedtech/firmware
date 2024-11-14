@@ -5,7 +5,7 @@ Welcome to timer this project presents a method for determining the uncertainty 
 The STM8S207K8T6C Microcontroller has a number of timers within its core. The most critical one is the High Speed Internal Oscillator (HSI) which is a 16 MHz RC Oscillator. Within the Microcontroller Control Unit the RC Oscillator is referenced as timer 3 or TIM3.
 
 ## Example 0
-High Speed Internal Oscillator Trimming
+**High Speed Internal Oscillator Trimming**
 ### Given
 1. Calibration signal main. fcal. frequency = 50 Hz
 accuracy dfcal of +- 1%.
