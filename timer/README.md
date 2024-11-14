@@ -17,7 +17,7 @@ accuracy dfcal of +- 1%.
 High Speed Internal Oscillator Calibrated frequency
 
 ### Analysis
-fhsim = (nhsi*fcal)L
+fhsim = (nhsi*fcal)/L
 
 where nhsi = counted HSI pulses
 fcal = calibration period
