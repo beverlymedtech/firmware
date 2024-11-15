@@ -1,6 +1,10 @@
 # Timer
 Welcome to timer this project presents a method for determining the uncertainty of a calibrated High Speed Internal Oscillator frequency, when trimming the high speed internal oscillator on an 8-bit Microcontroller to compensate for differences between the calibrated microcontroller, and its immediate operating temperature.
 
+# Oscillator
+An oscillator is a clock. An analog one to be exactly. A disciplined oscillator
+is one where 
+
 ## STM8S207 Nucleo-8
 The STM8S207K8T6C Microcontroller has a number of timers within its core. The most critical one is the High Speed Internal Oscillator (HSI) which is a 16 MHz RC Oscillator. Within the Microcontroller Control Unit the RC Oscillator is referenced as timer 3 or TIM3.
 
