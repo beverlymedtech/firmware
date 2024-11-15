@@ -3,7 +3,13 @@ Welcome to timer this project presents a method for determining the uncertainty 
 
 # Oscillator
 An oscillator is a clock. An analog one to be exactly. A disciplined oscillator
-is one where 
+is one which is able to maintain its frequency regardless of the environmental conditions around it.
+
+## RC Oscillator
+The RC oscillator of this particular microcontroller is a circuit with a resistor and capacitor
+arranged in a manner to provide the microcontroller core with a regulated, and
+consistent timekeeper so programs on the CPU or MCU are consistent in time.
+
 
 ## STM8S207 Nucleo-8
 The STM8S207K8T6C Microcontroller has a number of timers within its core. The most critical one is the High Speed Internal Oscillator (HSI) which is a 16 MHz RC Oscillator. Within the Microcontroller Control Unit the RC Oscillator is referenced as timer 3 or TIM3.
