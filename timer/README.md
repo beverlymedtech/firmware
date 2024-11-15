@@ -7,7 +7,9 @@ The STM8S207K8T6C Microcontroller has a number of timers within its core. The mo
 ## Example 0
 **High Speed Internal Oscillator Trimming**
 ### Given
-1. Calibration signal main. fcal. frequency = 50 Hz
+1. One source of uncertainty for the High Speed Oscillator is the discrete nature (8-bit) of the trim value. 0000 0001.
+3. The second source of uncertainty is the High Speed Oscilator frequency itself. (accuracy of the RC Oscillator).
+4. Calibration signal main. fcal. frequency = 50 Hz
 accuracy dfcal of +- 1%.
 2. Number of calibration signal periods L = 4
 3. Desired Output frequency 16 MHz
