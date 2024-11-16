@@ -1,16 +1,12 @@
 # Timer
 Welcome to timer, this project presents a method for determining the uncertainty
 of a calibrated High Speed Internal Oscillator frequency, when trimming the high
-speed internal oscillator on an 8-bit Microcontroller. Inherent to the performance
-analog circuitry, there are differences in the way that a microcontrollers Internal
-timing features respond to changes in external temperature. For a microcontroller
+speed internal oscillator on an 8-bit Microcontroller. Inherent to the performance analog circuitry, there are differences in the way that a microcontrollers Internal
+timing features respond to changes in external temperature or power supply voltage drift. For a microcontroller
 operating a control system, this small timing uncertainty, however, small may
 be undesirable. Especially as the frequency nears the MHz range.
 
-To minimize the uncertainty of the onboard timer providing the Microcontroller with
-its high frequency reference time, Microcontrollers utilize their power provide
-pin to provide a stable lower frequency signal, that can be multiplied to the
-desired microcontroller operating frequency.
+To minimize the uncertainty of the onboard timer providing the Microcontroller with its high frequency reference time, Microcontrollers utilize their power provide pin to provide a stable lower frequency signal, that can be multiplied to the desired microcontroller operating frequency.
 
 # Oscillator
 An oscillator is a clock. An analog one to be exact. A disciplined oscillator
@@ -69,6 +65,7 @@ There is an uncertainty that when we take look at the chance that pre-defined pe
 
 `uNHSI = 1/sqrt(3)`
 
+4. Another way to calculate the timer uncertainty is to take credit for all the nice signal processing between the analog power powering the Microcontroller (mains) and the high speed internal oscillator.
 
 fhsim = (nhsi*fcal)/L
 
