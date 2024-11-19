@@ -70,7 +70,9 @@ There is an uncertainty that when we take look at the chance that pre-defined pe
 fhsim = (nhsi*fcal)/L
 
 where nhsi = counted HSI pulses
+
 fcal = calibration period
+
 L = signal periods
 
 
