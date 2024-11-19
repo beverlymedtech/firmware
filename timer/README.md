@@ -26,9 +26,9 @@ The most critical one is the High Speed Internal Oscillator (HSI) which is a 16
 MHz RC Oscillator. Within the Microcontroller Control Unit, the RC Oscillator is
 referenced as timer 3 or TIM3.
 
-## Example 0
+## Example
 **High Speed Internal Oscillator Trimming**
-### Given 0.1
+### Given
 1. One source of uncertainty for the High Speed Oscillator is the discrete
 nature (8-bit) of the trim value. 0000 0001.
 3. The second source of uncertainty is the High Speed Oscillator frequency
