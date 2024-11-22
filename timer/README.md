@@ -4,7 +4,7 @@ of a calibrated High Speed Internal Oscillator frequency, when trimming the high
 speed internal oscillator on an 8-bit Microcontroller. Inherent to the performance analog circuitry, there are differences in the way that a microcontrollers Internal
 timing features respond to changes in external temperature or power supply voltage drift. For a microcontroller
 operating a control system, this small timing uncertainty, however, small may
-be undesirable. Especially as the frequency nears the MHz range.
+be undesirable. Especially as the resultant frequency nears the MHz range.
 
 To minimize the uncertainty of the onboard timer providing the Microcontroller with its high frequency reference time, Microcontrollers utilize their power provide pin to provide a stable lower frequency signal, that can be multiplied to the desired microcontroller operating frequency.
 
@@ -50,7 +50,7 @@ the processed
 accuracy dfcal of +- 1%.
 2. Number of calibration signal periods L = 4
 3. Desired Output frequency 16 MHz
-4. High Speed Internal Oscilator frequency is a function of
+4. High Speed Internal Oscillator frequency is a function of
 
 ### Find 0.2
 Multiple methods to define the High Speed Internal Oscillator Calibrated frequency.
