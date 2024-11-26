@@ -2,4 +2,4 @@
 oscilator, given a particular frequency of operation.
 '''
 
-# Calibrated HSI oscillator freuqncy
+# Calibrated HSI oscillator frequency
