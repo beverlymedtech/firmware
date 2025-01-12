@@ -5,7 +5,7 @@ This repository houses 8-Bit Microcontroller experiements and biology sensors. T
 # Mocricontroller
 ## stm8s208s6
 # Timer
-The [timer](https://github.com/beverlymedtech/firmware/timer) directory is included in timer repositoty.
+The [timer](https://github.com/beverlymedtech/firmware/timer/#readme) directory is included in timer repositoty.
 ## TIM3
 TIM3 is a 16-bit general purpose timer 
 # Application Note
