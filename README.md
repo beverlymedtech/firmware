@@ -2,7 +2,7 @@
 This repository houses BevTech Firmware for sensors.
 # BvTech 8 Bit
 This repository houses 8-Bit Microcontroller experiements and biology sensors. This repository is open source showcasing the applications of 8-bit Embedded Systems when applied to Biological Systems.
-# Mocricontroller
+# Microcontroller
 ## stm8s208s6
 # Timer
 The [timer](https://github.com/beverlymedtech/firmware/tree/main/timer) directory is included in timer repositoty.
