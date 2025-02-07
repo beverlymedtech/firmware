@@ -1,3 +1,4 @@
+# ST STM8S207 AN2822 High Speed Internal Oscillator Calibration
 # Timer
 Welcome to timer, this project presents a method for determining the uncertainty
 of a calibrated High Speed Internal Oscillator frequency, when trimming the high
@@ -26,6 +27,7 @@ The most critical one is the High Speed Internal Oscillator (HSI) which is a 16
 MHz RC Oscillator. Within the Microcontroller Control Unit, the RC Oscillator is
 referenced as timer 3 or TIM3.
 
+# Uncertainty of Calibrated HSI frequency
 ## Example
 **High Speed Internal Oscillator Trimming**
 ### Given

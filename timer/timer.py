@@ -1,5 +1,5 @@
-'''This python file calculates the uncertainty of a micrcontroller high speed
-oscilator, given a particular frequency of operation.
+''' This python file calculates the uncertainty of a micrcontroller high speed
+oscillator, given a particular frequency of operation.
 '''
-
-# Calibrated HSI oscillator frequency
+# Calibrated HSI Oscillator frequency
+# 16 MHz Internal RC Oscillator
