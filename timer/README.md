@@ -2,10 +2,9 @@
 # Timer
 Welcome to timer, this project presents a method for determining the uncertainty
 of a calibrated High Speed Internal Oscillator frequency, when trimming the high
-speed internal oscillator on an 8-bit Microcontroller. Inherent to the performance analog circuitry, there are differences in the way that a microcontrollers Internal
-timing features respond to changes in external temperature or power supply voltage drift. For a microcontroller
-operating a control system, this small timing uncertainty, however, small may
-be undesirable. Especially as the resultant frequency nears the MHz range.
+speed internal oscillator on an 8-bit Microcontroller. Inherent to the performance analog circuitry, there are differences in the way that a microcontroller's internal timing components respond to changes in external temperature or power supply voltage drift. For a microcontroller
+operating a control system, this small timing uncertainty, however small, may
+be undesirable. Especially as the resultant frequency is multiplied to the multiple MHz range.
 
 To minimize the uncertainty of the onboard timer providing the Microcontroller with its high frequency reference time, Microcontrollers utilize their power provide pin to provide a stable lower frequency signal, that can be multiplied to the desired microcontroller operating frequency.
 
@@ -16,10 +15,8 @@ environmental conditions around it.
 
 ## RC Oscillator
 The RC oscillator of this particular microcontroller is a circuit with a
-resistor and capacitor designed to provide the microcontroller core (MCU) with a
-regulated, and consistent timekeeper, so programs on the CPU or MCU are
-consistent in time.
-
+resistor and capacitor designed to provide the Microcontroller Core Unit (MCU) with a regulated, and consistent timekeeper, so programs on the Central Processing Unit CPU (Processor) or MCU (Microcontroller) exhibit
+consistent time related behavior.
 
 ## STM8S207 Nucleo-8
 The STM8S207K8T6C Microcontroller has a number of timers within its core.
