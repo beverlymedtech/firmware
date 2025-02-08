@@ -24,6 +24,9 @@ The most critical one is the High Speed Internal Oscillator (HSI) which is a 16
 MHz RC Oscillator. Within the Microcontroller Control Unit, the RC Oscillator is
 referenced as timer 3 or TIM3.
 
+## 
+
+
 # Uncertainty of Calibrated HSI frequency
 ## Example
 **High Speed Internal Oscillator Trimming**
@@ -74,8 +77,8 @@ fcal = calibration period
 
 L = signal periods
 
-
-
+# References
+[1] [AN2822 STM8S High Speed Internal Oscillator Calibration](https://www.st.com/resource/en/application_note/an2822-stm8s-and-stm8a-high-speed-internal-oscillator-calibration-stmicroelectronics.pdf)
 
 
 
