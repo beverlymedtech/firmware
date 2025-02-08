@@ -18,14 +18,14 @@ The RC oscillator of this particular microcontroller is a circuit with a
 resistor and capacitor designed to provide the Microcontroller Core Unit (MCU) with a regulated, and consistent timekeeper, so programs on the Central Processing Unit CPU (Processor) or MCU (Microcontroller) exhibit
 consistent time related behavior.
 
-## STM8S207 Nucleo-8
+## STM8S207 Nucleo-8 Board
 The STM8S207K8T6C Microcontroller has a number of timers within its core.
 The most critical one is the High Speed Internal Oscillator (HSI) which is a 16
 MHz RC Oscillator. Within the Microcontroller Control Unit, the RC Oscillator is
 referenced as timer 3 or TIM3.
 
-## 
-
+## STM8S High Speed Internal RC Oscillator
+The STM8S207K8T6C can use a High Speed Internal RC Oscillator as its system clock source. The clock is calibrated for a temperature of 25 degrees Celsius and with a supply voltage of 5 Volts. For communication protocols the oscillator output frequency can be trimmed by the user. The user can fine tune the Oscillator using the CLK_HSITRIMR register. The value of the trim can be set from a value of -4 to +3 all as two complement binary integers. (100b to 011b). 
 
 # Uncertainty of Calibrated HSI frequency
 ## Example

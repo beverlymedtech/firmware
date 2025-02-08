@@ -2,4 +2,4 @@
 oscillator, given a particular frequency of operation.
 '''
 # Calibrated HSI Oscillator frequency
-# 16 MHz Internal RC Oscillator
+rc_frequency_MHz = 16 # 16 MHz Internal RC Oscillator
