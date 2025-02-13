@@ -27,6 +27,11 @@ referenced as timer 3 or TIM3.
 ## STM8S High Speed Internal RC Oscillator
 The STM8S207K8T6C can use a High Speed Internal RC Oscillator as its system clock source. The clock is factory calibrated for a temperature of 25 degrees Celsius and with a supply voltage of 5 Volts. However for accuracy when implementing communication protocols the oscillator output frequency can be trimmed by the user. The user can fine tune the Oscillator using the CLK_HSITRIMR register. The value of the trim can be set from a value of -4 to +3 all as two complement binary integers. (100b to 011b).
 
+# Calibration Principle
+The STM8S207K8T6C microcontroller uses either a post processed signal from its power source, or an external signal generator as a reference timebase to calibrate its internal high-speed oscillator. To estimate the frequency of the resultant calibration signal, the microcontroller counts square pulses of the high speed internal oscillator, and stores them in a capture register when calibrating. To validate, or test that the calibration has been done properly the frequency of the high speed internal oscillator can be measured from the configurable clock output pin (CCO).
+
+# Convert US Main Output AC Power to Square Signal and Main Output Voltage to a 5 Volt Power Supply Voltage
+
 # Uncertainty of Calibrated HSI frequency
 ## Example
 **High Speed Internal Oscillator Trimming**
