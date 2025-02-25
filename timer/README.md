@@ -34,8 +34,11 @@ The STM8S207K8T6C microcontroller uses either a post processed signal from its p
 
 # Uncertainty of Calibrated HSI frequency
 ## Example
+
 **High Speed Internal Oscillator Trimming**
+
 ### Given
+
 1. One source of uncertainty for the High Speed Oscillator is the discrete
 nature (8-bit) of the trim value. 0000 0001.
 3. The second source of uncertainty is the High Speed Oscillator frequency
