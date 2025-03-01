@@ -19,4 +19,55 @@ LQFP32
 The [timer](https://github.com/beverlymedtech/firmware/tree/main/timer) directory is linked here.
 ## TIM3
 TIM3 is a 16-bit general purpose timer
+## Programming Language
+C
+## Compiler
+Small Device C Compiler (SDCC)
+## Target
+STM8
+### Compiler Suite Components
+sdas - small device assembler
+sdld - small device linker
+sdcpp - C++ preprocessor
+ucsim - microcontroller simulator
+sdcdb - source level debugger
+sdbinutils - library archive utilities
+gcc-test - regression tests
+#### sdcc - C Compiler
+
 # References
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
