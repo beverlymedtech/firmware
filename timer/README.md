@@ -1,5 +1,6 @@
 # ST STM8S207 AN2822 High Speed Internal Oscillator Calibration
 # Timer
+
 Welcome to timer, this project presents a method for determining the uncertainty
 of a calibrated High Speed Internal Oscillator frequency, when trimming the high
 speed internal oscillator on an 8-bit Microcontroller. Inherent to the performance analog circuitry, there are differences in the way that a microcontroller's internal timing components respond to changes in external temperature or power supply voltage drift. For a microcontroller
