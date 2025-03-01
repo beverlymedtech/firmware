@@ -12,11 +12,11 @@ This repository houses 8-Bit Microcontroller experiments and biology sensors. Th
 LQFP32
 # Development Board
 ## NUCLEO-8S207K8
-
-# Timer
-The [timer](https://github.com/beverlymedtech/firmware/tree/main/timer) directory is linked here.
 # Application Note
 **[AN2882](https://www.st.com/resource/en/application_note/an2822-stm8s-and-stm8a-high-speed-internal-oscillator-calibration-stmicroelectronics.pdf)**
+# Timer
+The [timer](https://github.com/beverlymedtech/firmware/tree/main/timer) directory is linked here.
+
 
 ## TIM3
 TIM3 is a 16-bit general purpose timer
