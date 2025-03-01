@@ -5,6 +5,7 @@ This repository houses 8-Bit Microcontroller experiments and biology sensors. Th
 # Core Types
 ## Microcontroller Control Unit
 # Microcontroller
+## 8-Bit Microcontroller
 ## STM8S207K8T6C
 # Connector
 ## USB Type-A to Micro-B cable
