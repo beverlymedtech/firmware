@@ -1,31 +1,0 @@
-ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8)  Page 1
-Hexadecimal [24-Bits]
-
-
-
-o     000000                          1 .stm8
-                                      2 ;
-                                      3 ; STM8 assembler LED blink demo
-                                      4 ; Version 0.2
-                                      5 
-o     000000                          6 F_CPU        EQU  16000000 ; CPU clock frequency, required by delay routines
-o     000000                          7 LED          EQU  5  ; LED pin index on Port B
-                                      8 
-                                      9 ; interrupt vectors
-oq    000000                         10 .org 0x8000
-u     000000 82 00 00 00             11      INT     start  ; RESET handler, jump to the main program body
-ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8)  Page 2
-Hexadecimal [24-Bits]
-
-Symbol Table
-
-    .__.$$$.=  002710 L   |     .__.ABS.=  000000 G   |     .__.CPU.=  000000 L
-    .__.H$L.=  000001 L   |     start      ****** X
-
-ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8)  Page 3
-Hexadecimal [24-Bits]
-
-Area Table
-
-   0 _CODE      size      4   flags    0
-
