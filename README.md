@@ -13,8 +13,10 @@ This repository houses 8-Bit Microcontroller experiments and biology sensors. Th
 LQFP32
 # Development Board
 ## NUCLEO-8S207K8
-# Application Note
+# Tutorials
+# Application Notes
 **[AN2882](https://www.st.com/resource/en/application_note/an2822-stm8s-and-stm8a-high-speed-internal-oscillator-calibration-stmicroelectronics.pdf)**
+# Blink
 # Timer
 The [timer](https://github.com/beverlymedtech/firmware/tree/main/timer) directory is linked here.
 ## TIM3
